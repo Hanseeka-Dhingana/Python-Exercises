@@ -1,6 +1,5 @@
-# Basic Python Questions
-
-### Simple python questions to build strong foundation.    
+# Programming Fundamentals 
+## Simple python questions to build strong foundation.    
 
 <hr style="height: 3px; background: darkgray; border: none;">   
 
@@ -150,7 +149,53 @@ Write the program that inspect the properties and functions of different objects
 #### Question 16: **Display Documentation**   
 Display the documentation of class string and module numpy.  
 
+---
 
+<br>    
+<br>  
 
+## MCQs Questions
+
+1. In which language can a variable change its type during runtime?  
+a) Java  
+b) C   
+c) JavaScript   
+d) Both Python and JavaScript  
+
+2. What type of language is Python in terms of variable typing?     
+a) Statically typed     
+b) Dynamically typed      
+c) Weakly typed    
+d) Strongly typed     
+ 
+3. What type of memory management does Python use?     
+a) Manual memory management  
+b) Garbage collection  
+c) Stack allocation only   
+d) None of the above  
+
+4. What is a variable in Python?   
+a) A reserved word  
+b) A data type  
+c) A location in memory to store data  
+d) A function
+
+5. How do you swap the values of two variables in Python without using a third variable?  
+a) x = y; y = x  
+b) x, y = y, x   
+c) temp = x; x = y; y = temp     
+d) x + y; y = x; x = y
+
+6. What will happen if indentation is inconsistent in Python?     
+a) The program will run but give a warning   
+b) The program will ignore indentation errors   
+c) Python will raise an IndentationError   
+d) The program will run with default indentation    
+
+7. Which of the following is NOT a valid Python token?     
+a) Keywords   
+b) Operators            
+c) Functions   
+d) Identifiers
 
 
