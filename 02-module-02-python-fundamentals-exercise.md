@@ -198,4 +198,24 @@ b) Operators
 c) Functions   
 d) Identifiers
 
+8. What will be the output of the following code?
+``` python
+   print(type(3.14))  
+```          
+  a) <class 'int'>   
+  b) <class 'str'>     
+  c) <class 'float'>    
+  d) <class 'double'>      
+
+9. Which of the following is NOT a valid special character in Python?    
+a) @   
+b) $   
+c) _   
+d) &
+
+10. Which of the following is NOT a reserved keyword in Python?   
+a) class    
+b) def      
+c) print     
+d) return
 
