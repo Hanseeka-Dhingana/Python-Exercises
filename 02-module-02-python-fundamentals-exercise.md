@@ -261,7 +261,23 @@ b) An empty list
 c) The size of the list   
 d) A syntax error
 
-18. 
+18. What happens when you call help(print) in Python?       
+a) It prints the contents of a variable    
+b) It shows documentation about the print() function    
+c) It calls the print() function     
+d) It deletes the print() function from memory
+
+19. Which of the following are considered "magic methods" in Python?     
+a) _abc_abc   
+b) init    
+c) add    
+d) Both b and c
+
+20.  What is the purpose of the end parameter in print()?    
+a) To specify the separator between multiple values     
+b) To change the default newline behavior    
+c) To specify the encoding format     
+d) To define a maximum character limit     
 
 
 
