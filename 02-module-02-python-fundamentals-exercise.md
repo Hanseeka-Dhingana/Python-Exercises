@@ -219,3 +219,50 @@ b) def
 c) print     
 d) return
 
+11. What is the main advantage of Python's interactive mode (REPL)?    
+a) It compiles code before execution   
+b) It evaluates expressions immediately   
+c) It requires a main() function    
+d) It does not support variable assignments
+
+12. Which of the following is the correct syntax to assign the value 'Goodbye' to three variables in one statement?   
+a) a, b, c = 'Goodbye'     
+b) a = b = c = 'Goodbye'    
+c) a|b|c = 'Goodbye'    
+d) Both a and b
+
+13. What does the input() function in Python return?    
+a) Integer    
+b) String   
+c) Boolean     
+d) Float
+
+14. : Why was the input() function in Python 2.x considered a security risk?    
+a) It stored data in a public file    
+b) It allowed direct execution of user input as code   
+c) It did not return input properly    
+d) It required additional libraries
+
+15. What is the correct syntax for using f-strings in Python?    
+a) print("Name is {name}")    
+b) print(f"Name is {name}")    
+c) print("Name is %s" % name)    
+d) print("Name is ".format(name))
+
+16. If two variables a and b store the same integer value, what will id(a) == id(b) return?    
+a) Always True    
+b) Always False      
+c) True only if they are in a list   
+d) It depends on the integer value
+
+17. hat will dir([]) return?   
+a) The methods and attributes of a list object   
+b) An empty list    
+c) The size of the list   
+d) A syntax error
+
+18. 
+
+
+
+
