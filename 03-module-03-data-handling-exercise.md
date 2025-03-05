@@ -22,6 +22,19 @@ print(type(a))
 15. What is difference between static typing dynamic typing in Python? Does Python support static typing natively?
 16. How does Python handle variable types at runtime?
 
+<br>   
+
+### Type Conversion in Python
+1. What is type conversion in Python?   
+2. What is the difference between implicit and explicit type conversion?  
+3. Name five built-in functions used for type conversion in Python.  
+4. What happens when you try to convert a complex number to an integer?  
+5. What is the output of int(True) and int(False)?  
+6. Can a string containing decimal values (e.g., "10.5") be converted using int()? Why or why not?
+7. What is the output of bool(0), bool(10), and bool("")? Explain.
+8. How do you convert a float to a string in Python? Provide an example.
+9. What is the output of complex(5, -3)?
+
 
 
  
