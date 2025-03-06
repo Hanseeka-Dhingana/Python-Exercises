@@ -56,7 +56,25 @@ print(type(a))
 15. Explain how constants improve collaboration in a team-based development environment.    
 16. How does defining constants help in debugging and modifying a program?     
 17. In what situations might a developer choose to use constants instead of variables?    
-18.  How does using constants help in adapting a program to future changes more efficiently?    
+18.  How does using constants help in adapting a program to future changes more efficiently?        
+
+### Introduction to Python Collection/Data Structures  
+1. What are Python collections, and why are they important in programming?    
+2. Explain the differences between mutable and immutable collections in Python.   
+3. Describe the key differences between ordered and unordered collections in Python.    
+4. What is a list in Python? How is it different from other collection types?   
+5. What is list comprehension? How does it improve efficiency in Python?   
+6. What is a tuple in Python? How does it differ from a list?   
+7. Why are tuples considered immutable, and what are the advantages of immutability?   
+8. Explain the concept of tuple unpacking with an example.   
+9. How do sets handle duplicate elements in Python?   
+10. What are the key advantages of using sets in Python?   
+11. What is a frozenset in Python, and how is it different from a regular set?    
+12. In what scenarios would using a frozenset be more beneficial than a normal set?    
+13. What is a dictionary in Python, and how does it store data?   
+14. What is the purpose of mapping types in Python, and how are they used?    
+15. How can specialized mapping types improve data organization in Python?   
+16. 
 
 
  
