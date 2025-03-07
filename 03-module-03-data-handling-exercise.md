@@ -58,6 +58,8 @@ print(type(a))
 17. In what situations might a developer choose to use constants instead of variables?    
 18.  How does using constants help in adapting a program to future changes more efficiently?        
 
+<br>
+
 ### Introduction to Python Collection/Data Structures  
 1. What are Python collections, and why are they important in programming?    
 2. Explain the differences between mutable and immutable collections in Python.   
@@ -74,7 +76,28 @@ print(type(a))
 13. What is a dictionary in Python, and how does it store data?   
 14. What is the purpose of mapping types in Python, and how are they used?    
 15. How can specialized mapping types improve data organization in Python?   
-16. 
+
+<br>
+
+### Working with Date and Time
+
+1. Explain the importance of working with date and time in Python.   
+2. What are the different modules available in Python for handling date and time?     
+3. How can you retrieve the current date and time using the datetime module?    
+4. What is the difference between datetime.now() and datetime.utcnow()?
+5. How can you combine separate date and time objects into a single datetime object?
+6. Differentiate between the date class and the time class in the datetime module.
+7. What are the functions strftime() and strptime() used for?   
+8. List and explain any five commonly used date/time format codes.  
+9. How can you calculate the difference between two dates using timedelta?
+10. How can you compare two datetime objects in Python?
+11. How can you sort a list of datetime objects in ascending order?
+12. Explain the use of the time.sleep() function with an example.
+13. Mention two practical use cases of introducing execution delays in a program.
+14. How can you calculate the execution time of a program using time.time()?
+15. What is the difference between time.time() and time.perf_counter()?
+
+
 
 
  
