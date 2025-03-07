@@ -97,6 +97,89 @@ print(type(a))
 14. How can you calculate the execution time of a program using time.time()?
 15. What is the difference between time.time() and time.perf_counter()?
 
+<br>  
+
+## Exercise
+### Data Types in Python
+1. Write a Python program to take a binary number as input and convert it to decimal, octal, and hexadecimal.    
+2. Write a Python program to check if a given number is a palindrome in binary form.   
+3. Write a Python program to convert a floating-point number to its scientific notation.   
+4. Write a Python program to check if a given floating-point number is an integer (e.g., 5.0 is an integer).    
+5. Write a Python program to multiply two complex numbers and display the result.    
+6. Write a Python program to check if a string is a palindrome.   
+7. Write a Python program to split a string into a list of words and then join them back into a single string with spaces in between.     
+8. Write a Python program to format a string using f-strings, where you include variables for name, age, and salary.        
+9. Write a Python program to print a string that includes a newline character (\n) and a tab character (\t).    
+10. Write a Python program to create a list of integers and perform basic operations like appending, removing, and sorting.    
+11. Write a Python program to concatenate two tuples and create a new tuple.   
+12. Write a Python program to create a set of integers and perform operations like union, intersection, and difference.    
+13. Write a Python program to remove duplicates from a list using a set.   
+14. Write a Python program to iterate through a dictionary and print all key-value pairs.    
+15.  Write a Python program to create a function that returns None and explain its use case.
+
+<br>  
+
+### Type Conversion in Python   
+1. Write a Python program to convert a string containing a number (e.g., "123") to an integer and a float. Handle invalid inputs gracefully (e.g., "abc").
+```  
+Input Example: "123", "45.67", "abc"
+Output Example: 123, 45.67, Invalid input
+```
+2.  Write a Python program to create a complex number with a real part as an integer and an imaginary part as a float. Convert it to a string and print the result.
+```
+Input Example: 5, 2.5
+Output Example: "(5+2.5j)"  
+```    
+
+ 3. Write a Python program to convert the following values to boolean using the bool() function: `0`, `1`,` 0.0`, `10.5`, `""`, `"Hello"`. Print the results. 
+```
+Output Example: False, True, False, True, False, True  
+```
+
+4. Addition of string and integer Using Explicit Conversion.  
+``` python
+       num_string = '12'
+       num_integer = 23
+```
+```
+Output: sum: 35
+```
+5. Write a Python program to convert a string to a float. Handle the ValueError exception if the string cannot be converted to a float.
+
+```
+Input Example: "45.67", "abc"
+Output Example: 45.67, Invalid input
+```   
+
+6. Write a Python program to convert a binary string (e.g., "1010") to an integer without using the int() function. Print the result.
+
+7. Write a Python program to convert a list of integers to a list of floats and a list of booleans. Print the results.   
+``` 
+Input Example: [0, 1, 2, 3]
+Output Example: [0.0, 1.0, 2.0, 3.0], [False, True, True, True]
+``` 
+
+8. Write a Python program to calculate the area of a circle. Take the radius as input (as a string) and convert it to a float. Handle invalid inputs gracefully.
+
+```
+Input Example: "5.5", "abc"
+Output Example: Area: 95.033, Invalid input
+```
+
+<br> 
+
+### Constants in Python  
+1. Write a Python program to calculate the gravitational force between two objects using the formula:          
+                   <p style="text-align:center;">$$F=  {G⋅m1⋅m2 \over  r^2 }$$ </p>             
+use the gravitational constant `G = 6.674 x 10^-11` and r as input and print the force.
+2. Write a Python program to calculate the area of a rectangle. Replace the magic numbers for length and width with constants `LENGTH` and `WIDTH.` Print the area.
+3. Write a Python program to calculate the kinetic energy of an object using the formula:     
+                           $$KE = { {1\over2}.m . v^2 }$$  
+Store the constant 1/2 in a module named constants.py and import it into your program. Take mass (m) and velocity (v) as input and print the kinetic energy.
+4. Write a Python program to calculate the body mass index `(BMI)` using the formula:      
+                            $$BMI = {weight \over height^2}$$  
+Use constants for the conversion factor from pounds to kilograms `(POUNDS_TO_KG = 0.453592)` and from inches to meters `(INCHES_TO_METERS = 0.0254)`. Take weight in pounds and height in inches as input and print the BMI.
+
 
 
 
