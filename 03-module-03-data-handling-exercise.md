@@ -170,15 +170,20 @@ Output Example: Area: 95.033, Invalid input
 
 ### Constants in Python  
 1. Write a Python program to calculate the gravitational force between two objects using the formula:          
-                   <p style="text-align:center;">$$F=  {G⋅m1⋅m2 \over  r^2 }$$ </p>             
+                   <h4 style="text-align:center;">$$F=  {G⋅m1⋅m2 \over  r^2 }$$ </h4>             
 use the gravitational constant `G = 6.674 x 10^-11` and r as input and print the force.
 2. Write a Python program to calculate the area of a rectangle. Replace the magic numbers for length and width with constants `LENGTH` and `WIDTH.` Print the area.
 3. Write a Python program to calculate the kinetic energy of an object using the formula:     
-                           $$KE = { {1\over2}.m . v^2 }$$  
+                   <h4 style="text-align:center;">$$KE = { {1\over2}.m . v^2 }$$ </h4>  
 Store the constant 1/2 in a module named constants.py and import it into your program. Take mass (m) and velocity (v) as input and print the kinetic energy.
 4. Write a Python program to calculate the body mass index `(BMI)` using the formula:      
-                            $$BMI = {weight \over height^2}$$  
+                   <h4 style="text-align:center;">$$BMI = {weight \over height^2}$$ </h4>  
 Use constants for the conversion factor from pounds to kilograms `(POUNDS_TO_KG = 0.453592)` and from inches to meters `(INCHES_TO_METERS = 0.0254)`. Take weight in pounds and height in inches as input and print the BMI.
+
+<br>   
+
+### Special Data Types
+1. 
 
 
 
