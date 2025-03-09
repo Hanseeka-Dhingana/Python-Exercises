@@ -183,7 +183,104 @@ Use constants for the conversion factor from pounds to kilograms `(POUNDS_TO_KG 
 <br>   
 
 ### Special Data Types
-1. 
+1. Write a Python function that takes a number as input and returns None if the number is negative. Otherwise, return the square of the number. Test the function with both positive and negative inputs.
+``` 
+Input Example: 5, -5
+Output Example: 25, None
+```
+2. Write a Python program to manage a to-do list. Use None as a placeholder for incomplete tasks. Print the to-do list, replacing None with "Incomplete" for display purposes.
+```
+Input Example: ["Task 1", None, "Task 3"]
+Output Example: ["Task 1", "Incomplete", "Task 3"]
+```
+
+3. Write a Python program to validate user input. If the user enters an empty string, return None. Otherwise, return the input in uppercase.
+
+4. Write a Python program to simulate a student grading system. Use None to represent missing grades. Calculate the average grade, ignoring None values.
+```
+Input Example: [85, None, 90, 75, None]
+Output Example: Average grade: 83.33
+```
+5. Write a Python program to handle a function that may return None. If the function returns None, print "No result found." Otherwise, print the result.
+
+<br>   
+
+### Introduction to Python Collection/Data Structures  
+
+1. Write a Python program to create a list of integers, add a new element to the list, and then remove the second element. Print the final list.   
+2. Write a Python program to find the sum of all elements in a list using a loop. Print the sum.   
+3. Write a Python program to create a tuple of mixed data types (e.g., integers, strings, floats) and print each element along with its data type.   
+4. Write a Python program to unpack a tuple into individual variables and print them.   
+5. Write a Python program to create two sets and perform the following operations: union, intersection, and difference. Print the results.
+```
+Input Example: {1, 2, 3}, {3, 4, 5}
+Output Example: Union: {1, 2, 3, 4, 5}, Intersection: {3}, Difference: {1, 2}
+```                       
+6. Write a Python program to check if a set is a subset of another set. Print the result.
+```
+Input Example: {1, 2}, {1, 2, 3, 4}
+Output Example: True
+```    
+7. Write a Python program to create a frozenset and demonstrate that it is immutable by trying to add or remove elements. Handle the error gracefully.
+```
+Input Example: [1, 2, 3]
+Output Example: Frozenset: frozenset({1, 2, 3}), Error: Cannot modify frozenset
+```   
+8. Write a Python program to create a dictionary with keys as names and values as ages. Add a new key-value pair and then delete an existing key-value pair. Print the final dictionary.   
+9. Write a Python program to iterate through a dictionary and print all key-value pairs.
+10. Write a Python program to merge two dictionaries into one. Print the merged dictionary.
+11. Write a Python program to count the frequency of each character in a string using defaultdict. Print the character frequencies.
+```
+Input Example: "hello"
+Output Example: {'h': 1, 'e': 1, 'l': 2, 'o': 1}
+```
+12. Write a Python program to group a list of words by their first letter using defaultdict. Print the grouped words.
+```
+Input Example: ["apple", "banana", "cherry", "apricot", "blueberry"]
+
+Output Example: {'a': ['apple', 'apricot'], 'b': ['banana', 'blueberry'], 'c': ['cherry']}
+``` 
+
+13. Write a Python program to create a nested dictionary to store student information (e.g., name, age, grades). Print the nested dictionary.
+```
+Input Example: {"Alice": {"age": 25, "grades": [90, 85, 88]}}
+
+Output Example: {"Alice": {"age": 25, "grades": [90, 85, 88]}}
+```
+
+<br>  
+
+### Working with Date and Time   
+1. Write a Python program to get the current date and time using the datetime module. Print the result in the format: YYYY-MM-DD HH:MM:SS.   
+2. Write a Python program to combine a given date (2025-01-29) and time (15:45:00) into a single datetime object. Print the combined datetime.  
+3. Convert string datetime into a datetime object.   
+4. Subtract a week (7 days)  from a given date in Python.
+5. Write a Python program to convert a datetime object to a string in the format Month DD, YYYY. For example: January 29, 2025.   
+6. Write a Python program to add 5 seconds to the current time.  
+7. Write a Python program to select all the Sundays in a specified year.   
+8. Write a Python program to get days between two dates.  
+9. Write a Python program to test the third Tuesday of a month.  
+10. Write a Python program to get the last day of a specified year and month.  
+11. Write a Python program to print a string five times, with a delay of three seconds.  
+12. Write a Python program to add 5 days to the current date and print the new date.  
+13. Write a Python program to compare two dates (2025-01-01 and 2025-01-29) and print which date is earlier.  
+    ```
+      Output Example: 2025-01-01 is earlier than 2025-01-29
+    ```
+14. Write a Python program to find the minimum and maximum dates from a list of dates: `[2025-01-01, 2024-12-31, 2025-02-01].`  
+15. Write a Python program to check if a given year is a leap year using the calendar module.  
+16.  Write a Python program to sort a list of dates in ascending order: [2025-01-01, 2024-12-31, 2025-02-01]. Print the sorted list.   
+17. Write a Python program to calculate the time taken to sort a list of 10,000 random numbers. Print the execution time in milliseconds.  
+18. Write a Python program to display the calendar for January 2025 using the calendar module.  
+19. Write a Python program to calculate the number of days between your birthdate and today. Print the result.  
+    ```
+    Input Example: 1990-05-15
+    Output Example: Number of days since birth: 12,345
+    ```  
+20. Write a Python program to calculate the age of a person in years, months, and days given their birthdate (1990-05-15). Print the result.
+```
+Output Example: Age: 34 years, 8 months, 14 days
+```
 
 
 
